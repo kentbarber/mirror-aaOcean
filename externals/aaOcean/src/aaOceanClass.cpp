@@ -16,7 +16,11 @@
 #define AAOCEANCLASS_CPP
 
 #include <cmath>
+
+#if defined(HAS_OMP)
 #include <omp.h>
+#endif
+
 #include <climits>
 #include <float.h>
 #include <string>
